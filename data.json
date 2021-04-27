@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "title": "Selfservice point",
+    "type": "selfservice",
+    "address": {
+      "city": "Krakow",
+      "street": "",
+      "number": ""
+    },
+    "coords": [50.03989, 20.000748],
+    "description": "self service near bus station..."
+  },
+  {
+    "id": 1,
+    "title": "Selfservice point",
+    "type": "selfservice",
+    "address": {
+      "city": "Krakow",
+      "street": "Tadeusza Romanowicza",
+      "number": 1
+    },
+    "coords": [50.049724, 19.964101],
+    "description": "self service near Zablocie..."
+  },
+  {
+    "id": 2,
+    "title": "Decathlon",
+    "type": "store",
+    "address": {
+      "city": "Krakow",
+      "street": "Aleja Pokoju",
+      "number": 46
+    },
+    "coords": [50.065619, 19.98736],
+    "website": "https://www.decathlon.pl/",
+    "description": "Decathlon Store"
+  },
+  {
+    "id": 3,
+    "title": "Bike's Service Kokos",
+    "type": "service",
+    "address": {
+      "city": "Krakow",
+      "street": "Tadeusza",
+      "number": 3
+    },
+    "coords": [50.05, 19.97],
+    "website": "https://www.kokos",
+    "description": "self service..."
+  }
+]

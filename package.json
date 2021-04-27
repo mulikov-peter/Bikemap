@@ -1,0 +1,23 @@
+{
+  "name": "bike-map",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "pettergov1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.11.0",
+    "leaflet": "^1.7.1",
+    "regenerator-runtime": "^0.13.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-js": "^2.0.0-nightly.335",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.11"
+  }
+}
