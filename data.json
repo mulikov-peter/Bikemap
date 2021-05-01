@@ -13,7 +13,7 @@
   },
   {
     "id": 1,
-    "title": "Selfservice point",
+    "title": "Selfservice repair point",
     "type": "selfservice",
     "address": {
       "city": "Krakow",
@@ -25,28 +25,62 @@
   },
   {
     "id": 2,
-    "title": "Decathlon",
-    "type": "store",
+    "title": "Selfservice repair point",
+    "type": "selfservice",
     "address": {
       "city": "Krakow",
       "street": "Aleja Pokoju",
       "number": 46
     },
     "coords": [50.065619, 19.98736],
-    "website": "https://www.decathlon.pl/",
-    "description": "Decathlon Store"
+    "description": "In front of main entrance Decathlon"
   },
   {
     "id": 3,
-    "title": "Bike's Service Kokos",
-    "type": "service",
+    "title": "Selfservice repair point",
+    "type": "selfservice",
     "address": {
       "city": "Krakow",
-      "street": "Tadeusza",
-      "number": 3
+      "street": "Wielicka",
+      "number": 76
     },
-    "coords": [50.05, 19.97],
-    "website": "https://www.kokos",
-    "description": "self service..."
+    "coords": [50.032946, 19.970942],
+    "description": "In front of Apteka"
+  },
+  {
+    "id": 4,
+    "title": "Selfservice repair point",
+    "type": "selfservice",
+    "address": {
+      "city": "Krakow",
+      "street": "Wielicka",
+      "number": 8
+    },
+    "coords": [50.04203, 19.961829],
+    "description": "In front Bike srvice 'Secesja'"
+  },
+  {
+    "id": 5,
+    "title": "Selfservice repair point",
+    "type": "selfservice",
+    "address": {
+      "city": "Krakow",
+      "street": "Na Zjeździe",
+      "number": 11
+    },
+    "coords": [50.047012, 19.955165],
+    "description": "Near bike parking lot, in front of office building"
+  },
+  {
+    "id": 6,
+    "title": "Selfservice repair point",
+    "type": "selfservice",
+    "address": {
+      "city": "Krakow",
+      "street": "Marii Konopnickiej",
+      "number": 0
+    },
+    "coords": [50.04365, 19.934625],
+    "description": "Near 'Hilton Garden Inn'"
   }
 ]
