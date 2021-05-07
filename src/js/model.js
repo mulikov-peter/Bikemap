@@ -75,7 +75,7 @@ export class App {
         L.popup({
           maxWidth: 250,
           minWidth: 100,
-          autoClose: false,
+          autoClose: true,
           closeOnClick: false,
           className: `${placePoint.type}-popup`,
         })
