@@ -23,6 +23,7 @@ export class App {
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function () {
+          alert('Could not get your position'); // To do
           console.log('Could not get your position');
         }
       );
@@ -48,7 +49,7 @@ export class App {
         L.popup({
           maxWidth: 250,
           maxHeight: 100,
-          autoClose: false,
+          autoClose: true,
           closeOnClick: false,
           className: `user-popup`,
         })
@@ -118,7 +119,6 @@ export class App {
   }
 
   _moveToPopup(e) {
-    // BUGFIX: When we click on a place-poin before the map has loaded, we get an error. But there is fix:
     if (!this._map) return;
 
     const placePointEl = e.target.closest('.point');
