@@ -19,7 +19,7 @@ body {
 
 a:link,
 a:visited {
-  color: #fff;
+  color: #2d3439;
 }
 
 a {
@@ -45,6 +45,7 @@ a:hover {
   padding: 3rem 5rem;
   height: 100%;
   color: #fff;
+  transition: all 0.5s;
 }
 
 .logo {
@@ -150,6 +151,10 @@ a:hover {
 }
 
 .user-popup .leaflet-popup-content-wrapper {
+  background-color: red;
+}
+
+.user-popup .leaflet-popup-tip {
   background-color: red;
 }
 

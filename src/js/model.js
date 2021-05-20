@@ -23,7 +23,7 @@ export class App {
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function () {
-          alert('Could not get your position'); // To do
+          alert('Could not get your position'); // Todo this functionality
           console.log('Could not get your position');
         }
       );
@@ -43,18 +43,27 @@ export class App {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this._map);
 
+    // ------------------
+    // const greenIcon = L.icon({
+    //   iconUrl:
+    //     'https://img2.pngio.com/here-png-click-here-you-are-here-there-come-here-start-here-i-am-here-png-260_260.jpg',
+    //   iconSize: [44, 44], // size of the icon
+    // });
+    // L.marker(coords, { icon: greenIcon }).addTo(this._map);
+    //  ----------------------
+
     L.marker(coords)
       .addTo(this._map)
       .bindPopup(
         L.popup({
           maxWidth: 250,
           maxHeight: 100,
-          autoClose: true,
+          autoClose: false,
           closeOnClick: false,
           className: `user-popup`,
         })
       )
-      .setPopupContent('Here you are')
+      .setPopupContent('You are here')
       .openPopup();
 
     // Render place-point marker after loading
@@ -80,8 +89,8 @@ export class App {
           className: `${placePoint.type}-popup`,
         })
       )
-      .setPopupContent(`${placePoint.title}`)
-      .openPopup();
+      .setPopupContent(`${placePoint.title}`);
+    // .openPopup();
     this._markers.push(marker);
     placePoint.markerId = marker._leaflet_id;
   }
